@@ -3,16 +3,14 @@ class Node:
     self.data = data
     self.next = None
 
-
 class Stack:
   def __init__(self):
     self.head = None
-
+       
   def push(self, data) -> None:
     if self head is None:
       self.data = data
       self.next = next
-      
 
   def pop(self) -> None:
       self.data = data
@@ -24,32 +22,19 @@ class Stack:
     It prints all the elements of stack.
     """
     void display() {
-
-struct Node* ptr;
-
-if(top==NULL)
-
-cout<<"stack is empty";
-
-else {
-
-ptr = top;
-
-cout<<"Stack elements are: ";
-
-while (ptr != NULL) {
-
-cout<< ptr->data <<" ";
-
-ptr = ptr->next;
-
-}
-
-}
-
-cout<<endl;
-
-}
+      struct Node* ptr;
+      if(top==NULL)
+      cout<<"stack is empty";
+      else {
+        ptr = top;
+        cout<<"Stack elements are: ";
+        while (ptr != NULL) {
+          cout<< ptr->data <<" ";
+          ptr = ptr->next;
+        }
+      }
+      cout<<endl;
+    }
 
 
 # Do not change the following code
