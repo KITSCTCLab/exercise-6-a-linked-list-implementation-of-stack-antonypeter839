@@ -9,21 +9,47 @@ class Stack:
     self.head = None
 
   def push(self, data) -> None:
+    if self head is None:
       self.data = data
       self.next = next
-      self.head = None
+      
 
   def pop(self) -> None:
       self.data = data
-      self.next = next
-      self.head = None
+      self.next = next                                                                
     
 
   def status(self):
     """
     It prints all the elements of stack.
     """
-    
+    void display() {
+
+struct Node* ptr;
+
+if(top==NULL)
+
+cout<<"stack is empty";
+
+else {
+
+ptr = top;
+
+cout<<"Stack elements are: ";
+
+while (ptr != NULL) {
+
+cout<< ptr->data <<" ";
+
+ptr = ptr->next;
+
+}
+
+}
+
+cout<<endl;
+
+}
 
 
 # Do not change the following code
