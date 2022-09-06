@@ -11,8 +11,12 @@ class Stack:
   def push(self, data) -> None:
       self.data = data
       self.next = next
+      self.head = None
 
-  def pop(self) -> None:   
+  def pop(self) -> None:
+      self.data = data
+      self.next = next
+      self.head = None
     
 
   def status(self):
